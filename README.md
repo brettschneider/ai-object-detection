@@ -1,4 +1,4 @@
-# PRESENTATION X - IMAGEAI AND LLAVA #
+# LIGHT SURVEY OF IMAGE/VISUAL AI #
 Presented By: Steve Brettschneider (CVG)
 
 ## Synopsis ##
