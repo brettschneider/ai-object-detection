@@ -30,7 +30,7 @@ def get_detector(model: str = "yolov3.pt") -> ObjectDetection:
 def extract_book_image(preds, image):
     """Given an object detection array, check if there are any books, and then crop and return the first one"""
     for obj in preds:
-        if obj['name'] == 'book' and obj['percentage_probability'] > 95.0:
+        if obj['name'] == 'book' and obj['percentage_probability'] > 85.0:
             x_min = obj['box_points'][0] - 10
             y_min = obj['box_points'][1] - 10
             x_max = obj['box_points'][2] + 10
